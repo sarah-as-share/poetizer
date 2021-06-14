@@ -10,6 +10,7 @@ Run Poetizer from the terminal using the following arguments:
     $ python poetizer_2grams.py [corpus].txt [rhyme scheme]
 
 or
+
     $ python poetizer_3grams.py [corpus].txt [rhyme scheme]
 
 Both versions differ in the content model they use. The 3-gram-Model throws sometimes an error.
