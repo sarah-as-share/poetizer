@@ -27,7 +27,7 @@ def download_photo(word):
 		else:
 			break
 	if photo_url != None:
-		print "adding photo for %s..." % word
+		print("adding photo for %s..." % word)
 		response = requests.get(photo_url, stream=True)
 		with open(word + '.jpg', 'wb') as out_file:
 			shutil.copyfileobj(response.raw, out_file)
@@ -38,7 +38,7 @@ def download_photo(word):
 
 photo_words = []
 for (i, j) in pos:
-	if j in ['NN', 'NNS', 'NNP', 'NNPS', 'VB', 
+	if j in ['NN', 'NNS', 'NNP', 'NNPS', 'VB',
 			 'VBD', 'VBG', 'VBN', 'VBP', 'VBZ',
 			 'JJ', 'JJR', 'JJS', 'RB', 'RBR', 'RBS']:
 		photo_words.append(i)
