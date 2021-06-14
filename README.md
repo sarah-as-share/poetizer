@@ -1,4 +1,4 @@
-# Poetizer
+# Poetizer for Python 3.7 and nltk 3.4.5 (changed from https://github.com/rossgoodwin/poetizer)
 
 Generates free or fixed verse poetry from any text corpus using Ngram natural language generator (markov chains) + pos tagging + rhyme identifier + metrical / grammatical rules.
 
@@ -6,7 +6,7 @@ To run Poetizer, assemble an English text corpus (news articles, academic papers
 
 Run Poetizer from the terminal using the following arguments:
 
-    $ python poetizer.py [corpus].txt [rhyme scheme]
+    $ python poetizer_2grams.py [corpus].txt [rhyme scheme]
 
 ## Rhyme Scheme & Line Breaks
 
