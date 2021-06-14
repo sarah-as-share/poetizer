@@ -1,4 +1,5 @@
-# Poetizer for Python 3.7 and nltk 3.4.5 (changed from https://github.com/rossgoodwin/poetizer)
+# Poetizer for Python 3.7 and nltk 3.4.5 
+(changed from https://github.com/rossgoodwin/poetizer)
 
 Generates free or fixed verse poetry from any text corpus using Ngram natural language generator (markov chains) + pos tagging + rhyme identifier + metrical / grammatical rules.
 
