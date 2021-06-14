@@ -8,6 +8,11 @@ Run Poetizer from the terminal using the following arguments:
 
     $ python poetizer_2grams.py [corpus].txt [rhyme scheme]
 
+or
+    $ python poetizer_3grams.py [corpus].txt [rhyme scheme]
+
+Both versions differ in the content model they use. The 3-gram-Model throws an sometimes an error.
+
 ## Rhyme Scheme & Line Breaks
 
 The rhyme scheme should be a list of letters. For example, `ABABCDCDEFEFGG` would produce 14-line rhyming sonnets, and `ABCDE` would produce 5-line poems with no end-of-line rhymes. Adding numbers will make the program repeat lines. For example, `1AB12CD2` would generate 8-line poems with the 1st line repeated as the 4th line and the 5th line repeated as the 8th line.
