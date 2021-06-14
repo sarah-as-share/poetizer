@@ -11,7 +11,7 @@ Run Poetizer from the terminal using the following arguments:
 or
     $ python poetizer_3grams.py [corpus].txt [rhyme scheme]
 
-Both versions differ in the content model they use. The 3-gram-Model throws an sometimes an error.
+Both versions differ in the content model they use. The 3-gram-Model throws sometimes an error.
 
 ## Rhyme Scheme & Line Breaks
 
