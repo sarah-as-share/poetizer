@@ -38,7 +38,7 @@ def download_photo(word):
 
 photo_words = []
 for (i, j) in pos:
-	if j in ['NN', 'NNS', 'NNP', 'NNPS', 'VB',
+	if j in ['NN', 'NNS', 'NNP', 'NNPS', 'VB', 
 			 'VBD', 'VBG', 'VBN', 'VBP', 'VBZ',
 			 'JJ', 'JJR', 'JJS', 'RB', 'RBR', 'RBS']:
 		photo_words.append(i)
